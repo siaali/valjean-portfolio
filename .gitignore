@@ -1,0 +1,9 @@
+.DS_Store
+Thumbs.db
+*.local.html
+notes/
+*.private.md
+# 视频文件一律不进仓库（本地预览用的软链接 / 重排版 / 压缩版都在这里）
+assets/video/
+# 项目工作日志 / 私人笔记只留本地，不进公开仓库
+.workbuddy-ai/

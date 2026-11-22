@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Placeholder film still 5">
+ <defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+   <stop offset="0%" stop-color="#171320"/>
+   <stop offset="55%" stop-color="#4a3c60"/>
+   <stop offset="100%" stop-color="#171320"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="0.72" cy="0.36" r="0.72">
+   <stop offset="0%" stop-color="#b2a2cc" stop-opacity="0.42"/>
+   <stop offset="55%" stop-color="#b2a2cc" stop-opacity="0.10"/>
+   <stop offset="100%" stop-color="#b2a2cc" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="vig" cx="50%" cy="48%" r="75%">
+   <stop offset="50%" stop-color="#000000" stop-opacity="0"/>
+   <stop offset="100%" stop-color="#000000" stop-opacity="0.55"/>
+  </radialGradient>
+  <filter id="grain" x="0" y="0" width="100%" height="100%">
+   <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/>
+   <feColorMatrix type="saturate" values="0"/>
+  </filter>
+ </defs>
+ <rect width="1600" height="900" fill="url(#bg)"/>
+ <rect width="1600" height="900" fill="url(#glow)"/>
+
+  <path d="M0 648 L352 495 L656 630 L992 432 L1328 612 L1600 522 L1600 900 L0 900 Z" fill="#05080b" opacity="0.55"/>
+  <path d="M0 756 L480 684 L927 765 L1600 702 L1600 900 L0 900 Z" fill="#04070a" opacity="0.7"/>
+ <rect width="1600" height="900" fill="url(#vig)"/>
+ <rect width="1600" height="900" filter="url(#grain)" opacity="0.075"/>
+</svg>

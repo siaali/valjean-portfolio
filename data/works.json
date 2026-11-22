@@ -1,0 +1,232 @@
+{
+  "site": {
+    "name": "VALJEAN",
+    "tagline": "Director / Creative / Editor",
+    "location": "SHANGHAI — Independent filmmaker & image-maker",
+    "about": "Focused on visual and conceptual expression,\nwith experience in fashion, creative video.\nBalances commercial and artistic needs,\nprioritizing client demands and execution quality for flawless results.",
+    "services": [
+      "Director",
+      "Creative",
+      "Editor"
+    ],
+    "email": "jeancojo00@gmail.com",
+    "portrait": "assets/img/portrait.jpg",
+    "social": [
+      {
+        "label": "Instagram",
+        "url": "https://instagram.com/avaljeann"
+      },
+      {
+        "label": "RED · JEAN",
+        "url": "https://xhslink.cn/o/Ap9TPdWJ6ek"
+      }
+    ],
+    "view": {
+      "default": "flow",
+      "remember": true
+    },
+    "hero": {
+      "video": "assets/video/hero-loop-small.mp4",
+      "poster": "assets/img/hero-poster.jpg",
+      "videoGlobal": "",
+      "videoCn": ""
+    },
+    "labels": {
+      "stills": "Selected frames"
+    }
+  },
+  "categories": [
+    {
+      "id": "commercial",
+      "label": "Commercial"
+    },
+    {
+      "id": "personal",
+      "label": "Personal"
+    }
+  ],
+  "works": [
+    {
+      "id": "w01",
+      "title": "uni model",
+      "client": "",
+      "year": "",
+      "category": "commercial",
+      "aspect": "16:9",
+      "cover": "assets/img/cover-w01.jpg",
+      "video": "assets/video/stream/work-01.mp4",
+      "note": "",
+      "stills": [
+        "assets/img/stills/w01-01.jpg",
+        "assets/img/stills/w01-02.jpg",
+        "assets/img/stills/w01-03.jpg",
+        "assets/img/stills/w01-04.jpg",
+        "assets/img/stills/w01-05.jpg",
+        "assets/img/stills/w01-06.jpg"
+      ],
+      "videoGlobal": "",
+      "videoCn": ""
+    },
+    {
+      "id": "w02",
+      "title": "MOLLY TEA x YVMIN",
+      "client": "",
+      "year": "2026",
+      "category": "commercial",
+      "aspect": "16:9",
+      "cover": "assets/img/cover-w02-long.jpg",
+      "video": [
+        {
+          "url": "assets/video/stream/work-03.mp4",
+          "aspect": "16:9",
+          "poster": "assets/img/cover-w02-long.jpg",
+          "urlGlobal": "",
+          "urlCn": ""
+        },
+        {
+          "url": "assets/video/stream/work-02.mp4",
+          "aspect": "16:9",
+          "poster": "assets/img/cover-w02-short.jpg",
+          "urlGlobal": "",
+          "urlCn": ""
+        }
+      ],
+      "note": "",
+      "stills": [
+        "assets/img/stills/w02-01.jpg",
+        "assets/img/stills/w02-02.jpg",
+        "assets/img/stills/w02-03.jpg",
+        "assets/img/stills/w02-04.jpg",
+        "assets/img/stills/w02-05.jpg",
+        "assets/img/stills/w02-06.jpg"
+      ],
+      "videoGlobal": "",
+      "videoCn": ""
+    },
+    {
+      "id": "w04",
+      "title": "MOLLY TEA",
+      "client": "",
+      "year": "2026",
+      "category": "commercial",
+      "aspect": "16:9",
+      "cover": "assets/img/cover-w04.jpg",
+      "video": "assets/video/stream/work-04.mp4",
+      "note": "",
+      "stills": [
+        "assets/img/stills/w04-01.jpg",
+        "assets/img/stills/w04-02.jpg",
+        "assets/img/stills/w04-03.jpg",
+        "assets/img/stills/w04-04.jpg",
+        "assets/img/stills/w04-05.jpg"
+      ],
+      "videoGlobal": "",
+      "videoCn": ""
+    },
+    {
+      "id": "w05",
+      "title": "Marisfrolg",
+      "client": "",
+      "year": "2026",
+      "category": "commercial",
+      "aspect": "16:9",
+      "cover": "assets/img/cover-w05.jpg",
+      "video": "assets/video/stream/work-05.mp4",
+      "note": "",
+      "stills": [
+        "assets/img/stills/w05-01.jpg",
+        "assets/img/stills/w05-02.jpg",
+        "assets/img/stills/w05-03.jpg",
+        "assets/img/stills/w05-04.jpg",
+        "assets/img/stills/w05-05.jpg",
+        "assets/img/stills/w05-06.jpg"
+      ],
+      "videoGlobal": "",
+      "videoCn": ""
+    },
+    {
+      "id": "w06",
+      "title": "POPMART",
+      "client": "",
+      "year": "",
+      "category": "commercial",
+      "aspect": "16:9",
+      "cover": "assets/img/cover-w06.jpg",
+      "video": "assets/video/stream/work-06.mp4",
+      "note": "",
+      "stills": [
+        "assets/img/stills/w06-01.jpg",
+        "assets/img/stills/w06-02.jpg",
+        "assets/img/stills/w06-03.jpg",
+        "assets/img/stills/w06-04.jpg",
+        "assets/img/stills/w06-05.jpg",
+        "assets/img/stills/w06-06.jpg"
+      ],
+      "videoGlobal": "",
+      "videoCn": ""
+    },
+    {
+      "id": "w07",
+      "title": "TEENIE WEENIE",
+      "client": "",
+      "year": "2026",
+      "category": "commercial",
+      "aspect": "16:9",
+      "cover": "assets/img/cover-w07.jpg",
+      "video": "assets/video/stream/work-07.mp4",
+      "note": "",
+      "stills": [
+        "assets/img/stills/w07-01.jpg",
+        "assets/img/stills/w07-02.jpg",
+        "assets/img/stills/w07-03.jpg",
+        "assets/img/stills/w07-04.jpg",
+        "assets/img/stills/w07-05.jpg",
+        "assets/img/stills/w07-06.jpg"
+      ],
+      "videoGlobal": "",
+      "videoCn": ""
+    },
+    {
+      "id": "w08",
+      "title": "ROUGE FASHIONBOOK — How to Act Normal",
+      "client": "",
+      "year": "",
+      "category": "commercial",
+      "aspect": "5:4",
+      "cover": "assets/img/cover-w08.jpg",
+      "video": "assets/video/stream/work-08.mp4",
+      "note": "",
+      "stills": [
+        "assets/img/stills/w08-01.jpg",
+        "assets/img/stills/w08-02.jpg",
+        "assets/img/stills/w08-03.jpg",
+        "assets/img/stills/w08-04.jpg",
+        "assets/img/stills/w08-05.jpg",
+        "assets/img/stills/w08-06.jpg"
+      ],
+      "videoGlobal": "",
+      "videoCn": ""
+    },
+    {
+      "id": "w09",
+      "title": "W magazine",
+      "client": "",
+      "year": "2026",
+      "category": "commercial",
+      "aspect": "5:4",
+      "cover": "assets/img/cover-w09.jpg",
+      "video": "assets/video/stream/work-09.mp4",
+      "note": "",
+      "stills": [
+        "assets/img/stills/w09-01.jpg",
+        "assets/img/stills/w09-02.jpg",
+        "assets/img/stills/w09-03.jpg",
+        "assets/img/stills/w09-04.jpg",
+        "assets/img/stills/w09-05.jpg",
+        "assets/img/stills/w09-06.jpg"
+      ],
+      "videoGlobal": "",
+      "videoCn": ""
+    }
+  ]
+}
