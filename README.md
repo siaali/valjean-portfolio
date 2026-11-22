@@ -34,7 +34,8 @@
 | `site.social` | 页脚社媒链接（数组，`label` 是显示文字，`url` 是地址） |
 | `site.labels.stills` | 详情页静帧组上方的小标题，现在是 `Selected frames`（页面统一显示成大写 `SELECTED FRAMES`）。**想换名字只改这一个词**，不用碰 HTML / CSS |
 | `site.hero.poster` | 首屏静态兜底图（手机 / 省流量 / 视频加载失败时显示） |
-| `site.hero.video` | 首屏静音循环短片的地址，见下方「换首屏短片」 |
+| `site.hero.video` | 首屏静音循环短片的**本地路径**（本地预览用），见下方「换首屏短片」 |
+| `site.hero.videoGlobal` / `videoCn` | 首屏短片的**海外源 / 国内源**直链。线上按访客地区自动选：大陆优先 `videoCn`、其它优先 `videoGlobal`；`videoCn` 留空时大陆也走 `videoGlobal`。见 `DEPLOY.md` |
 | `site.view.default` | 访客第一次进站时作品区的展示方式：`"flow"` 纵向大图流 / `"grid"` 网格，见下方「首页展示方式」 |
 | `site.view.remember` | `true` 记住访客上次选的视图；`false` 每次进站都回到 `default` |
 | `categories` | 分类名称对照表，**首页不再有分类按钮**，只在详情页元数据里显示作品所属类别的中文/英文名；留空则详情页不显示分类 |
@@ -42,7 +43,8 @@
 | `works[].client` / `year` / `category` | 卡片元数据（大图流叠在封面上：`片名 \| 客户`、右下白底年份）+ 详情页元数据；`category` 仅用于详情页取分类名，首页不做筛选 |
 | `works[].cover` | 首页卡片封面（大图流按原比例整张显示、网格统一裁成 4:3）+ 单视频详情页的播放器封面 |
 | `works[].aspect` | 详情页播放器的画幅比例 + 大图流封面的高度，见下方「画幅比例」；**只是布局参数，页面上不会显示成 `5:4` 这类文字** |
-| `works[].video` | 详情页视频：Vimeo / YouTube 链接或 mp4 直链 = 1 支片；写成数组 = 同一项目放多支短片，见下方「换视频 / 一个项目放多支短片」与「用 mp4 直链」 |
+| `works[].video` | 详情页视频：Vimeo / YouTube 链接或 mp4 直链 = 1 支片；写成数组 = 同一项目放多支短片，见下方「换视频 / 一个项目放多支短片」与「用 mp4 直链」。这里填的是**本地路径 / 主链接**，本地预览用它 |
+| `works[].videoGlobal` / `videoCn` | 同一支片的**海外源 / 国内源**直链，线上按访客地区自动选（`videoCn` 留空时大陆走 `videoGlobal`）；某源加载失败自动换另一个。多支片系列则在 `video` 数组的每一项里填 `urlGlobal` / `urlCn`。访客可用网址 `?r=cn` / `?r=global` / `?r=auto` 手动切换。详见 `DEPLOY.md` |
 | `works[].note` | 详情页一句话阐述 |
 | `works[].stills` | 详情页的**影片静帧组**（从成片里截出来的帧，不是分镜、不是幕后花絮）；数组顺序 = 展示顺序，点开是图片灯箱；**空数组 `[]` 时整段自动隐藏** |
 
