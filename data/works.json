@@ -28,7 +28,7 @@
     "hero": {
       "video": "assets/video/hero-loop-small.mp4",
       "poster": "assets/img/hero-poster.jpg",
-      "videoGlobal": "",
+      "videoGlobal": "https://pub-712aa953957e44e29e22bcaf2dbc932e.r2.dev/hero-loop-small.mp4",
       "videoCn": ""
     },
     "labels": {
@@ -64,7 +64,7 @@
         "assets/img/stills/w01-05.jpg",
         "assets/img/stills/w01-06.jpg"
       ],
-      "videoGlobal": "",
+      "videoGlobal": "https://pub-712aa953957e44e29e22bcaf2dbc932e.r2.dev/work-01.mp4",
       "videoCn": ""
     },
     {
@@ -80,14 +80,14 @@
           "url": "assets/video/stream/work-03.mp4",
           "aspect": "16:9",
           "poster": "assets/img/cover-w02-long.jpg",
-          "urlGlobal": "",
+          "urlGlobal": "https://pub-712aa953957e44e29e22bcaf2dbc932e.r2.dev/work-03.mp4",
           "urlCn": ""
         },
         {
           "url": "assets/video/stream/work-02.mp4",
           "aspect": "16:9",
           "poster": "assets/img/cover-w02-short.jpg",
-          "urlGlobal": "",
+          "urlGlobal": "https://pub-712aa953957e44e29e22bcaf2dbc932e.r2.dev/work-02.mp4",
           "urlCn": ""
         }
       ],
@@ -120,7 +120,7 @@
         "assets/img/stills/w04-04.jpg",
         "assets/img/stills/w04-05.jpg"
       ],
-      "videoGlobal": "",
+      "videoGlobal": "https://pub-712aa953957e44e29e22bcaf2dbc932e.r2.dev/work-04.mp4",
       "videoCn": ""
     },
     {
@@ -141,7 +141,7 @@
         "assets/img/stills/w05-05.jpg",
         "assets/img/stills/w05-06.jpg"
       ],
-      "videoGlobal": "",
+      "videoGlobal": "https://pub-712aa953957e44e29e22bcaf2dbc932e.r2.dev/work-05.mp4",
       "videoCn": ""
     },
     {
@@ -162,7 +162,7 @@
         "assets/img/stills/w06-05.jpg",
         "assets/img/stills/w06-06.jpg"
       ],
-      "videoGlobal": "",
+      "videoGlobal": "https://pub-712aa953957e44e29e22bcaf2dbc932e.r2.dev/work-06.mp4",
       "videoCn": ""
     },
     {
@@ -183,7 +183,7 @@
         "assets/img/stills/w07-05.jpg",
         "assets/img/stills/w07-06.jpg"
       ],
-      "videoGlobal": "",
+      "videoGlobal": "https://pub-712aa953957e44e29e22bcaf2dbc932e.r2.dev/work-07.mp4",
       "videoCn": ""
     },
     {
@@ -204,7 +204,7 @@
         "assets/img/stills/w08-05.jpg",
         "assets/img/stills/w08-06.jpg"
       ],
-      "videoGlobal": "",
+      "videoGlobal": "https://pub-712aa953957e44e29e22bcaf2dbc932e.r2.dev/work-08.mp4",
       "videoCn": ""
     },
     {
@@ -225,7 +225,7 @@
         "assets/img/stills/w09-05.jpg",
         "assets/img/stills/w09-06.jpg"
       ],
-      "videoGlobal": "",
+      "videoGlobal": "https://pub-712aa953957e44e29e22bcaf2dbc932e.r2.dev/work-09.mp4",
       "videoCn": ""
     }
   ]
