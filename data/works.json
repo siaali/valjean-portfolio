@@ -227,6 +227,65 @@
       ],
       "videoGlobal": "https://pub-712aa953957e44e29e22bcaf2dbc932e.r2.dev/work-09.mp4",
       "videoCn": ""
+    },
+    {
+      "id": "w10",
+      "title": "TOTEME",
+      "client": "TOTEME",
+      "year": "2026",
+      "category": "commercial",
+      "aspect": "9:16",
+      "cover": "assets/img/cover-w10.jpg",
+      "video": "assets/video/stream/w10.mp4",
+      "note": "",
+      "stills": [
+        "assets/img/stills/w10-01.jpg",
+        "assets/img/stills/w10-02.jpg",
+        "assets/img/stills/w10-03.jpg",
+        "assets/img/stills/w10-04.jpg"
+      ],
+      "videoGlobal": "https://pub-712aa953957e44e29e22bcaf2dbc932e.r2.dev/w10.mp4",
+      "videoCn": ""
+    },
+    {
+      "id": "w11",
+      "title": "13DE MARZO",
+      "client": "13DE MARZO",
+      "year": "2024",
+      "category": "commercial",
+      "aspect": "16:9",
+      "cover": "assets/img/cover-w11.jpg",
+      "video": "assets/video/stream/w11.mp4",
+      "note": "",
+      "stills": [
+        "assets/img/stills/w11-01.jpg",
+        "assets/img/stills/w11-02.jpg",
+        "assets/img/stills/w11-03.jpg",
+        "assets/img/stills/w11-04.jpg",
+        "assets/img/stills/w11-05.jpg",
+        "assets/img/stills/w11-06.jpg"
+      ],
+      "videoGlobal": "https://pub-712aa953957e44e29e22bcaf2dbc932e.r2.dev/w11.mp4",
+      "videoCn": ""
+    },
+    {
+      "id": "w12",
+      "title": "Earth's Woven Serenity",
+      "client": "JESSIE",
+      "year": "2025",
+      "category": "commercial",
+      "aspect": "9:16",
+      "cover": "assets/img/cover-w12.jpg",
+      "video": "assets/video/stream/w12.mp4",
+      "note": "",
+      "stills": [
+        "assets/img/stills/w12-01.jpg",
+        "assets/img/stills/w12-02.jpg",
+        "assets/img/stills/w12-03.jpg",
+        "assets/img/stills/w12-04.jpg"
+      ],
+      "videoGlobal": "https://pub-712aa953957e44e29e22bcaf2dbc932e.r2.dev/w12.mp4",
+      "videoCn": ""
     }
   ]
 }
