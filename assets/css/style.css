@@ -366,9 +366,13 @@ body.lb-open{overflow:hidden}
   .section-tools{gap:16px}
   /* 网格视图在窄屏也保持 2 列，和宽屏一致是多列；大图流是 flex，仍是单列大图 */
   .grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 16px}
-  /* 移动端同样保留左右窄边、片间留白，按原比例显示，不强制 4:3 */
-  .grid.is-flow .card-meta{padding:14px 16px;gap:10px}
+  /* 移动端大图流：竖屏不再用固定 76vh 高度（窄屏上会挤出巨大上下黑边），
+     改回按图片真实比例撑高、与横屏同一套逻辑，画面铺满、标题稳稳叠在画面里 */
+  .grid.is-flow .card-media.is-portrait{aspect-ratio:var(--card-ar,16/9);height:auto}
+  .grid.is-flow .card-media.is-portrait img{object-fit:cover}
+  .grid.is-flow .card-meta{padding:clamp(16px,2.4vw,34px) clamp(16px,2.6vw,40px);gap:16px}
   .grid.is-flow .card-title,.grid.is-flow .card-client{font-size:13px}
+  .grid.is-flow .card-year{font-size:11px;padding:4px 9px}
   /* 手机窄屏不贴三分线（会把照片挤得极小），回到单列居中流式布局 */
   .info{height:auto;padding:clamp(40px,9vw,64px) var(--pad)}
   .info-inner,.info-grid{position:static}
