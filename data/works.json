@@ -188,8 +188,8 @@
     },
     {
       "id": "w08",
-      "title": "ROUGE FASHIONBOOK — How to Act Normal",
-      "client": "",
+      "title": "How to Act Normal",
+      "client": "ROUGE FASHIONBOOK",
       "year": "",
       "category": "commercial",
       "aspect": "5:4",
@@ -231,7 +231,7 @@
     {
       "id": "w10",
       "title": "TOTEME",
-      "client": "TOTEME",
+      "client": "",
       "year": "2026",
       "category": "commercial",
       "aspect": "9:16",
@@ -250,7 +250,7 @@
     {
       "id": "w11",
       "title": "13DE MARZO",
-      "client": "13DE MARZO",
+      "client": "",
       "year": "2024",
       "category": "commercial",
       "aspect": "16:9",

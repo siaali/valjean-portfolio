@@ -239,14 +239,15 @@
     var empty = $('#gridEmpty');
     if (empty) empty.hidden = list.length > 0;
     grid.innerHTML = list.map(function (w) {
+      var ar = parseAspect(w.aspect);
       return '<a class="card reveal" href="work.html?w=' + encodeURIComponent(w.id) + '">' +
-        '<div class="card-media" style="--card-ar:' + parseAspect(w.aspect).toFixed(4) + '">' +
+        '<div class="card-media' + (ar < 1 ? ' is-portrait' : '') + '" style="--card-ar:' + ar.toFixed(4) + '">' +
           '<img src="' + esc(w.cover) + '" alt="' + esc(w.title) + '" loading="lazy">' +
           '<span class="card-explore">Explore ↗</span>' +
         '</div>' +
         '<div class="card-meta"><div>' +
           '<span class="card-title">' + esc(w.title) + '</span>' +
-          '<span class="card-client">' + esc(w.client) + '</span>' +
+          (w.client && w.client !== w.title ? '<span class="card-client">' + esc(w.client) + '</span>' : '') +
         '</div><span class="card-year">' + esc(w.year) + '</span></div>' +
       '</a>';
     }).join('');

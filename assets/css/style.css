@@ -173,6 +173,9 @@ body.contact-open .site-nav a[data-email-link]::after{display:none}
 /* --card-ar 由卡片按各自 aspect 写入：图片未加载时也先按真实比例占位，滚动不跳动 */
 .grid.is-flow .card-media{aspect-ratio:var(--card-ar,16/9);height:auto;border-radius:2px;background:#0a0a0a}
 .grid.is-flow .card-media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+/* 竖屏作品（aspect < 1）：大图流里按视口高度封顶、完整居中，两侧留黑边；横屏不受影响 */
+.grid.is-flow .card-media.is-portrait{aspect-ratio:auto;height:min(76vh,780px)}
+.grid.is-flow .card-media.is-portrait img{object-fit:contain}
 
 /* 名字 / 客户 / 年份叠到封面底部：左下「片名 | 客户」，右下白底年份（参考 lonnwave） */
 .grid.is-flow .card-meta{
