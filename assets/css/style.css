@@ -177,7 +177,7 @@ body.contact-open .site-nav a[data-email-link]::after{display:none}
 .grid.is-flow .card-media.is-portrait{aspect-ratio:auto;height:min(76vh,780px)}
 .grid.is-flow .card-media.is-portrait img{object-fit:contain}
 
-/* 名字 / 客户 / 年份叠到封面底部：左下「片名 | 客户」，右下白底年份（参考 lonnwave） */
+/* 名字 / 客户 / 年份叠到封面底部：左下「客户 — 片名」，右下白底年份（参考 lonnwave） */
 .grid.is-flow .card-meta{
   position:absolute;left:0;right:0;bottom:0;z-index:2;margin:0;
   padding:clamp(16px,2.4vw,34px) clamp(16px,2.6vw,40px);
@@ -190,7 +190,8 @@ body.contact-open .site-nav a[data-email-link]::after{display:none}
   text-shadow:0 1px 12px rgba(0,0,0,.9),0 0 24px rgba(0,0,0,.5);
 }
 .grid.is-flow .card-client:empty{display:none}
-.grid.is-flow .card-client:not(:empty)::before{content:"|";margin:0 .55em;color:rgba(255,255,255,.65)}
+/* 客户在前，破折号挂在片名前；只有片名（无客户）时不显示连接符 */
+.grid.is-flow .card-title:not(:first-child)::before{content:"—";margin:0 .5em;color:rgba(255,255,255,.65);font-weight:400}
 .grid.is-flow .card-year{
   flex:none;background:var(--fg);color:#111;text-shadow:none;
   font-size:clamp(10px,.85vw,12px);font-weight:700;letter-spacing:.06em;
@@ -210,8 +211,11 @@ body.contact-open .site-nav a[data-email-link]::after{display:none}
 }
 .card:hover .card-explore{opacity:1;transform:translate(-50%,-50%)}
 .card-meta{display:flex;justify-content:space-between;align-items:baseline;gap:16px;margin-top:14px}
+/* 网格视图：客户在前做主标题；有客户时片名降为次级小字，无客户时片名仍是主标题 */
+.card-client{display:block;font-size:14px;font-weight:700}
+.card-client:empty{display:none}
 .card-title{display:block;font-size:14px;font-weight:700}
-.card-client{display:block;margin-top:3px;font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.grid:not(.is-flow) .card-client:not(:empty) + .card-title{margin-top:3px;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
 .card-year{font-size:11px;font-weight:700;letter-spacing:.1em;color:var(--muted);white-space:nowrap}
 /* 年份还没填时，不要留下一个空的白色小标签 */
 .card-year:empty{display:none}

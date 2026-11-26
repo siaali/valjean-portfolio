@@ -246,8 +246,8 @@
           '<span class="card-explore">Explore ↗</span>' +
         '</div>' +
         '<div class="card-meta"><div>' +
-          '<span class="card-title">' + esc(w.title) + '</span>' +
-          (w.client && w.client !== w.title ? '<span class="card-client">' + esc(w.client) + '</span>' : '') +
+          (w.client ? '<span class="card-client">' + esc(w.client) + '</span>' : '') +
+          (!w.client || w.client !== w.title ? '<span class="card-title">' + esc(w.title) + '</span>' : '') +
         '</div><span class="card-year">' + esc(w.year) + '</span></div>' +
       '</a>';
     }).join('');
