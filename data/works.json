@@ -166,86 +166,6 @@
       "videoCn": ""
     },
     {
-      "id": "w22",
-      "title": "My Teacher",
-      "client": "THE PLANT magazine",
-      "year": "2026",
-      "category": "commercial",
-      "aspect": "5:4",
-      "cover": "assets/img/cover-w22-1.jpg",
-      "video": [
-        {
-          "url": "assets/video/stream/w22-1.mp4",
-          "aspect": "5:4",
-          "poster": "assets/img/cover-w22-1.jpg",
-          "urlGlobal": "https://pub-712aa953957e44e29e22bcaf2dbc932e.r2.dev/w22-1.mp4",
-          "urlCn": ""
-        },
-        {
-          "url": "assets/video/stream/w22-2.mp4",
-          "aspect": "5:4",
-          "poster": "assets/img/cover-w22-2.jpg",
-          "urlGlobal": "https://pub-712aa953957e44e29e22bcaf2dbc932e.r2.dev/w22-2.mp4",
-          "urlCn": ""
-        },
-        {
-          "url": "assets/video/stream/w22-3.mp4",
-          "aspect": "5:4",
-          "poster": "assets/img/cover-w22-3.jpg",
-          "urlGlobal": "https://pub-712aa953957e44e29e22bcaf2dbc932e.r2.dev/w22-3.mp4",
-          "urlCn": ""
-        },
-        {
-          "url": "assets/video/stream/w22-4.mp4",
-          "aspect": "5:4",
-          "poster": "assets/img/cover-w22-4.jpg",
-          "urlGlobal": "https://pub-712aa953957e44e29e22bcaf2dbc932e.r2.dev/w22-4.mp4",
-          "urlCn": ""
-        },
-        {
-          "url": "assets/video/stream/w22-5.mp4",
-          "aspect": "5:4",
-          "poster": "assets/img/cover-w22-5.jpg",
-          "urlGlobal": "https://pub-712aa953957e44e29e22bcaf2dbc932e.r2.dev/w22-5.mp4",
-          "urlCn": ""
-        },
-        {
-          "url": "assets/video/stream/w22-6.mp4",
-          "aspect": "5:4",
-          "poster": "assets/img/cover-w22-6.jpg",
-          "urlGlobal": "https://pub-712aa953957e44e29e22bcaf2dbc932e.r2.dev/w22-6.mp4",
-          "urlCn": ""
-        },
-        {
-          "url": "assets/video/stream/w22-7.mp4",
-          "aspect": "5:4",
-          "poster": "assets/img/cover-w22-7.jpg",
-          "urlGlobal": "https://pub-712aa953957e44e29e22bcaf2dbc932e.r2.dev/w22-7.mp4",
-          "urlCn": ""
-        },
-        {
-          "url": "assets/video/stream/w22-8.mp4",
-          "aspect": "5:4",
-          "poster": "assets/img/cover-w22-8.jpg",
-          "urlGlobal": "https://pub-712aa953957e44e29e22bcaf2dbc932e.r2.dev/w22-8.mp4",
-          "urlCn": ""
-        }
-      ],
-      "note": "",
-      "stills": [
-        "assets/img/cover-w22-1.jpg",
-        "assets/img/cover-w22-2.jpg",
-        "assets/img/cover-w22-3.jpg",
-        "assets/img/cover-w22-4.jpg",
-        "assets/img/cover-w22-5.jpg",
-        "assets/img/cover-w22-6.jpg",
-        "assets/img/cover-w22-7.jpg",
-        "assets/img/cover-w22-8.jpg"
-      ],
-      "videoGlobal": "",
-      "videoCn": ""
-    },
-    {
       "id": "w07",
       "title": "TEENIE WEENIE",
       "client": "",
@@ -264,6 +184,86 @@
         "assets/img/stills/w07-06.jpg"
       ],
       "videoGlobal": "https://pub-712aa953957e44e29e22bcaf2dbc932e.r2.dev/work-07.mp4",
+      "videoCn": ""
+    },
+    {
+      "id": "w22",
+      "title": "My Teacher",
+      "client": "THE PLANT magazine",
+      "year": "2026",
+      "category": "commercial",
+      "aspect": "5:4",
+      "cover": "assets/img/cover-w22-new.jpg",
+      "video": [
+        {
+          "url": "assets/video/stream/w22-5.mp4",
+          "aspect": "5:4",
+          "poster": "assets/img/cover-w22-5.jpg",
+          "urlGlobal": "https://pub-712aa953957e44e29e22bcaf2dbc932e.r2.dev/w22-5.mp4",
+          "urlCn": ""
+        },
+        {
+          "url": "assets/video/stream/w22-7.mp4",
+          "aspect": "5:4",
+          "poster": "assets/img/cover-w22-7.jpg",
+          "urlGlobal": "https://pub-712aa953957e44e29e22bcaf2dbc932e.r2.dev/w22-7.mp4",
+          "urlCn": ""
+        },
+        {
+          "url": "assets/video/stream/w22-1.mp4",
+          "aspect": "5:4",
+          "poster": "assets/img/cover-w22-1.jpg",
+          "urlGlobal": "https://pub-712aa953957e44e29e22bcaf2dbc932e.r2.dev/w22-1.mp4",
+          "urlCn": ""
+        },
+        {
+          "url": "assets/video/stream/w22-3.mp4",
+          "aspect": "5:4",
+          "poster": "assets/img/cover-w22-3.jpg",
+          "urlGlobal": "https://pub-712aa953957e44e29e22bcaf2dbc932e.r2.dev/w22-3.mp4",
+          "urlCn": ""
+        },
+        {
+          "url": "assets/video/stream/w22-4.mp4",
+          "aspect": "5:4",
+          "poster": "assets/img/cover-w22-4.jpg",
+          "urlGlobal": "https://pub-712aa953957e44e29e22bcaf2dbc932e.r2.dev/w22-4.mp4",
+          "urlCn": ""
+        },
+        {
+          "url": "assets/video/stream/w22-6.mp4",
+          "aspect": "5:4",
+          "poster": "assets/img/cover-w22-6.jpg",
+          "urlGlobal": "https://pub-712aa953957e44e29e22bcaf2dbc932e.r2.dev/w22-6.mp4",
+          "urlCn": ""
+        },
+        {
+          "url": "assets/video/stream/w22-8.mp4",
+          "aspect": "5:4",
+          "poster": "assets/img/cover-w22-8.jpg",
+          "urlGlobal": "https://pub-712aa953957e44e29e22bcaf2dbc932e.r2.dev/w22-8.mp4",
+          "urlCn": ""
+        },
+        {
+          "url": "assets/video/stream/w22-2.mp4",
+          "aspect": "5:4",
+          "poster": "assets/img/cover-w22-2.jpg",
+          "urlGlobal": "https://pub-712aa953957e44e29e22bcaf2dbc932e.r2.dev/w22-2.mp4",
+          "urlCn": ""
+        }
+      ],
+      "note": "",
+      "stills": [
+        "assets/img/cover-w22-5.jpg",
+        "assets/img/cover-w22-7.jpg",
+        "assets/img/cover-w22-1.jpg",
+        "assets/img/cover-w22-3.jpg",
+        "assets/img/cover-w22-4.jpg",
+        "assets/img/cover-w22-6.jpg",
+        "assets/img/cover-w22-8.jpg",
+        "assets/img/cover-w22-2.jpg"
+      ],
+      "videoGlobal": "",
       "videoCn": ""
     },
     {
@@ -490,20 +490,20 @@
       "year": "2024",
       "category": "commercial",
       "aspect": "16:9",
-      "cover": "assets/img/cover-w21-1.jpg",
+      "cover": "assets/img/cover-w21-home.jpg",
       "video": [
-        {
-          "url": "assets/video/stream/w21-1.mp4",
-          "aspect": "16:9",
-          "poster": "assets/img/cover-w21-1.jpg",
-          "urlGlobal": "https://pub-712aa953957e44e29e22bcaf2dbc932e.r2.dev/w21-1.mp4",
-          "urlCn": ""
-        },
         {
           "url": "assets/video/stream/w21-2.mp4",
           "aspect": "16:9",
           "poster": "assets/img/cover-w21-2.jpg",
           "urlGlobal": "https://pub-712aa953957e44e29e22bcaf2dbc932e.r2.dev/w21-2.mp4",
+          "urlCn": ""
+        },
+        {
+          "url": "assets/video/stream/w21-1.mp4",
+          "aspect": "16:9",
+          "poster": "assets/img/cover-w21-1.jpg",
+          "urlGlobal": "https://pub-712aa953957e44e29e22bcaf2dbc932e.r2.dev/w21-1.mp4",
           "urlCn": ""
         }
       ],
@@ -547,8 +547,15 @@
       "year": "2024",
       "category": "commercial",
       "aspect": "3:4",
-      "cover": "assets/img/cover-w18-1.jpg",
+      "cover": "assets/img/cover-w18-3.jpg",
       "video": [
+        {
+          "url": "assets/video/stream/w18-3.mp4",
+          "aspect": "3:4",
+          "poster": "assets/img/cover-w18-3.jpg",
+          "urlGlobal": "https://pub-712aa953957e44e29e22bcaf2dbc932e.r2.dev/w18-3.mp4",
+          "urlCn": ""
+        },
         {
           "url": "assets/video/stream/w18-1.mp4",
           "aspect": "3:4",
@@ -562,20 +569,13 @@
           "poster": "assets/img/cover-w18-2.jpg",
           "urlGlobal": "https://pub-712aa953957e44e29e22bcaf2dbc932e.r2.dev/w18-2.mp4",
           "urlCn": ""
-        },
-        {
-          "url": "assets/video/stream/w18-3.mp4",
-          "aspect": "3:4",
-          "poster": "assets/img/cover-w18-3.jpg",
-          "urlGlobal": "https://pub-712aa953957e44e29e22bcaf2dbc932e.r2.dev/w18-3.mp4",
-          "urlCn": ""
         }
       ],
       "note": "",
       "stills": [
+        "assets/img/cover-w18-3.jpg",
         "assets/img/cover-w18-1.jpg",
-        "assets/img/cover-w18-2.jpg",
-        "assets/img/cover-w18-3.jpg"
+        "assets/img/cover-w18-2.jpg"
       ],
       "videoGlobal": "",
       "videoCn": ""
@@ -606,8 +606,15 @@
       "year": "2023",
       "category": "commercial",
       "aspect": "16:9",
-      "cover": "assets/img/cover-w19-1.jpg",
+      "cover": "assets/img/cover-w19-6.jpg",
       "video": [
+        {
+          "url": "assets/video/stream/w19-6.mp4",
+          "aspect": "16:9",
+          "poster": "assets/img/cover-w19-6.jpg",
+          "urlGlobal": "https://pub-712aa953957e44e29e22bcaf2dbc932e.r2.dev/w19-6.mp4",
+          "urlCn": ""
+        },
         {
           "url": "assets/video/stream/w19-1.mp4",
           "aspect": "16:9",
@@ -642,23 +649,16 @@
           "poster": "assets/img/cover-w19-5.jpg",
           "urlGlobal": "https://pub-712aa953957e44e29e22bcaf2dbc932e.r2.dev/w19-5.mp4",
           "urlCn": ""
-        },
-        {
-          "url": "assets/video/stream/w19-6.mp4",
-          "aspect": "16:9",
-          "poster": "assets/img/cover-w19-6.jpg",
-          "urlGlobal": "https://pub-712aa953957e44e29e22bcaf2dbc932e.r2.dev/w19-6.mp4",
-          "urlCn": ""
         }
       ],
       "note": "",
       "stills": [
+        "assets/img/cover-w19-6.jpg",
         "assets/img/cover-w19-1.jpg",
         "assets/img/cover-w19-2.jpg",
         "assets/img/cover-w19-3.jpg",
         "assets/img/cover-w19-4.jpg",
-        "assets/img/cover-w19-5.jpg",
-        "assets/img/cover-w19-6.jpg"
+        "assets/img/cover-w19-5.jpg"
       ],
       "videoGlobal": "",
       "videoCn": ""
