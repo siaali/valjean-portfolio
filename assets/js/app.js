@@ -239,9 +239,12 @@
     var empty = $('#gridEmpty');
     if (empty) empty.hidden = list.length > 0;
     grid.innerHTML = list.map(function (w) {
-      var ar = parseAspect(w.aspect);
+      // flowAspect：仅覆盖「大图流封面」的画幅；未配置时沿用作品 aspect，行为不变。
+      // 用于封面比例与视频画幅不一致的作品（如竖版杂志封面配横版视频），让封面按真实比例完整铺满、不裁切。
+      var ar = w.flowAspect ? parseAspect(w.flowAspect) : parseAspect(w.aspect);
+      var isPortrait = !w.flowAspect && ar < 1; // 显式 flowAspect 的卡片走真实比例铺满，不套竖屏留黑边规则
       return '<a class="card reveal" href="work.html?w=' + encodeURIComponent(w.id) + '">' +
-        '<div class="card-media' + (ar < 1 ? ' is-portrait' : '') + '" style="--card-ar:' + ar.toFixed(4) + '">' +
+        '<div class="card-media' + (isPortrait ? ' is-portrait' : '') + '" style="--card-ar:' + ar.toFixed(4) + '">' +
           '<img src="' + esc(w.cover) + '" alt="' + esc(w.title) + '" loading="lazy">' +
           '<span class="card-explore">Explore ↗</span>' +
         '</div>' +

@@ -193,6 +193,7 @@
       "year": "2026",
       "category": "commercial",
       "aspect": "5:4",
+      "flowAspect": "4:5",
       "cover": "assets/img/cover-w22-new.jpg",
       "video": [
         {
